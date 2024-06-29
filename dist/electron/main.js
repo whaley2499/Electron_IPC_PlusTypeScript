@@ -29,7 +29,7 @@ var Main = /** @class */ (function () {
             },
             height: 600,
             width: 800,
-            title: "Yet another Electron Application"
+            title: "New version of the electron application"
         });
         this.mainWindow.webContents.openDevTools();
         this.mainWindow.loadFile('../../index.html');
